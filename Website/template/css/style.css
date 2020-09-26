@@ -463,7 +463,16 @@ textarea.form-control {
 .navbar .nav-item.active {
   font-weight: bold;
 }
+.dropdown-menu{
+  background-color: #004165;
+  border: none;
+}
 
+
+.dropdown-item{
+  color: white;
+  font-weight: bold;
+}
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
