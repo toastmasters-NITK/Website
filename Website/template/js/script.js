@@ -7,9 +7,10 @@
     $(window).scroll(function () {
         if ($('.navigation').offset().top > 100) {
             $('.navigation').addClass('nav-bg');
-            
+            document.getElementById('nav-img').src='images/progress-wave.png';   
         } else {
             $('.navigation').removeClass('nav-bg');
+            document.getElementById('nav-img').src='images/logo.png';
         }
     });
 
