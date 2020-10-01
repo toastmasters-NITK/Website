@@ -7,7 +7,7 @@
     $(window).scroll(function () {
         if ($('.navigation').offset().top > 100) {
             $('.navigation').addClass('nav-bg');
-            document.getElementById('nav-img').src='images/progress-wave.png'; 
+            document.getElementById('nav-img').src='images/navLogo.png'; 
             document.getElementById('dropdownNavMenu').style.backgroundColor="#772432";  
         } else {
             $('.navigation').removeClass('nav-bg');
