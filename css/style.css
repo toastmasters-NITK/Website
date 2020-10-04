@@ -131,7 +131,7 @@ h6, .h6 {
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: #004165;
   font-weight: bold;
 }
 
@@ -142,7 +142,7 @@ h6, .h6 {
 }
 
 .btn-transparent:active, .btn-transparent:hover {
-  color: #41228e;
+  color: #004165;
 }
 
 body {
@@ -205,7 +205,7 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: #41228e !important;
+  color: #004165 !important;
 }
 
 a:hover {
@@ -402,7 +402,7 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: #41228e;
+  border-color: #004165;
   outline: 0;
   box-shadow: none !important;
 }
@@ -445,7 +445,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #41228e;
+    background: #004165;
   }
 }
 
@@ -460,7 +460,10 @@ textarea.form-control {
 }
 .nav-link-button{
   background-color: transparent;
-  color: white; 
+  color: white;
+  align-content: center;
+  height: 100%;
+  width: 100%;
   outline: none; 
   border: none;
 }
@@ -476,6 +479,7 @@ textarea.form-control {
 .dropdown-item{
   color: white;
   font-weight: bold;
+  text-align: center;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -630,7 +634,7 @@ textarea.form-control {
 }
 
 .hover-bg-primary:hover {
-  background: #41228e;
+  background: #004165;
 }
 
 .hover-bg-primary:hover * {
@@ -639,7 +643,7 @@ textarea.form-control {
 
 .active-bg-primary {
   transition: .3s ease;
-  background: #41228e;
+  background: #004165;
 }
 
 .active-bg-primary * {
@@ -790,7 +794,7 @@ blockquote {
   display: inline-block;
   padding: 10px 20px;
   background: #eaeaea;
-  border-left: 2px solid #41228e;
+  border-left: 2px solid #004165;
   font-style: italic;
   font-size: 22px;
 }
