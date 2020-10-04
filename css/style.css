@@ -460,7 +460,10 @@ textarea.form-control {
 }
 .nav-link-button{
   background-color: transparent;
-  color: white; 
+  color: white;
+  align-content: center;
+  height: 100%;
+  width: 100%;
   outline: none; 
   border: none;
 }
@@ -476,6 +479,7 @@ textarea.form-control {
 .dropdown-item{
   color: white;
   font-weight: bold;
+  text-align: center;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
